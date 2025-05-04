@@ -1,0 +1,711 @@
+{
+  "lesson": "Lesson",
+  "test": "Test",
+  "completion": {
+    "prevAttempt": "Previous Attempt",
+    "scored": "Your last attempt scored",
+    "need": "You need at least",
+    "tryAgain": "to pass. Try again!",
+    "next": "next",
+    "testPassedSuccess": "Test passed successfully!",
+    "alreadyCompletedTest": "You have already completed this test.",
+    "score": "Score:",
+    "typeAnswer": "Type your answer",
+    "true": "True",
+    "false": "False",
+    "submitting": "Submitting...",
+    "submitTest": "Submit Test",
+    "answerAllQuestions": "Answer all questions to submit your test. Minimum passing score:",
+    "question": "Question",
+    "points": "points",
+    "lessonMarkedAsCompleted": "Lesson marked as completed",
+    "success": "Success"
+  },
+  "common": {
+    "areYouSure": "Are you sure?",
+    "irreversibleAction": "This action cannot be undone. This will permanently delete the lesson and all its associated data.",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "students": "Students",
+    "analytics": "Analytics",
+    "progress": "Progress",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "loading": "Loading...",
+    "error": "Error",
+    "view": "View",
+    "back": "Back",
+    "submit": "Submit",
+    "tryAgain": "Try Again",
+    "notAvailable": "Not Available",
+    "users": "Users",
+    "feedback": "Feedback",
+    "statistic": "Statistics",
+    "platformAnalytics": "Platform statistics"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "loginDescription": "Enter your email and password to access your account",
+    "signupTitle": "Sign Up",
+    "signupDescription": "Create an account to get started",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full Name",
+    "role": "Role",
+    "student": "Student",
+    "teacher": "Teacher",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?"
+  },
+  "courses": {
+    "singular": "course",
+    "plural": "courses",
+    "test": "Test",
+    "lesson": "Lesson",
+    "create": "Create Course",
+    "myCourses": "My Courses",
+    "editCourse": "Edit Course",
+    "noCourses": "No courses found",
+    "courseTitle": "Course Title",
+    "courseDescription": "Course Description",
+    "lessons": "Lessons",
+    "addLesson": "Add Lesson",
+    "noLessons": "No lessons created yet",
+    "backToCourses": "Back to Courses",
+    "courseList": {
+      "title": "My Courses",
+      "subtitle": "Manage your courses and lessons",
+      "noCoursesFound": "No courses found",
+      "noCoursesDescription": "You haven't created any courses yet. Get started by creating your first course!",
+      "createFirstCourse": "Create Your First Course",
+      "errorLoading": "Error loading courses",
+      "createdOn": "Created: {{date}}"
+    },
+    "courseDetail": {
+      "overview": "Overview",
+      "edit": "Edit",
+      "content": "Content",
+      "students": "Students",
+      "editCourseTitle": "Edit Course",
+      "noContent": "No content yet",
+      "noContentDescription": "This course doesn't have any lessons or tests yet.",
+      "saveChanges": "Save Changes",
+      "courseStats": {
+        "lessons": "{{count}} lessons",
+        "students": "{{count}} students",
+        "tests": "{{count}} tests"
+      },
+      "courseDeleted": "Course Deleted",
+      "courseDeletedSuccress": "Your course has been successfully deleted.",
+      "courseUpdated": "Course updated",
+      "courseUpdateSuccess": "Your course has been successfully updated.",
+      "deleteConfirm": {
+        "title": "Are you sure?",
+        "description": "This action cannot be undone. This will permanently delete the course \"{{title}}\" and all associated lessons, tests, and enrollment records."
+      },
+      "courseManagement": {
+        "courseManagement": "Course Management",
+        "searchCourses": "Search courses",
+        "newestFirst": "Newest First",
+        "oldestFirst": "Oldest First",
+        "title": "Title",
+        "description": "Description",
+        "status": "Status",
+        "createdAt": "Created At",
+        "actions": "Actions",
+        "active": "Active",
+        "deleteCourse": "Delete Course",
+        "deleteDescription": "Are you sure you want to delete the course? This action cannot be undone.",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "noCoursesFound": "No courses found matching the current filters."
+      }
+    },
+    "students": {
+      "enrollments": "Course Enrollments",
+      "addStudent": "Add Student",
+      "add": "Add",
+      "emailPlaceholder": "Enter student email",
+      "noStudents": "No students enrolled in this course yet",
+      "studentAdded": "Student added",
+      "studentAddedDesc": "Student has been successfully enrolled in the course.",
+      "errorAdding": "Error adding student",
+      "studentRemoved": "Student removed",
+      "studentRemovedDesc": "Student has been successfully unenrolled from the course.",
+      "confirmRemove": "Are you sure you want to remove this student from the course?",
+      "backToList": "Back to Students List"
+    },
+    "validation": {
+      "titleRequired": "Course title is required",
+      "titleMinLength": "Title must be at least 3 characters",
+      "descriptionRequired": "Course description is required",
+      "descriptionMinLength": "Description must be at least 10 characters"
+    },
+    "createCourse": {
+      "title": "Create New Course",
+      "button": "Create Course",
+      "pageTitle": "Create New Course",
+      "courseTitle": "Course Title",
+      "titlePlaceholder": "Enter course title",
+      "descriptionPlaceholder": "Describe your course",
+      "imageUrlLabel": "Course Image URL (Optional)",
+      "imageUrlPlaceholder": "Enter image URL for the course",
+      "createCourseButton": "Create Course",
+      "courseCreated": "Course Created",
+      "courseCreatedDesc": "Course \"{{title}}\" has been successfully created",
+      "error": "Error Creating Course"
+    },
+    "content": {
+      "addContent": "Add Content",
+      "addLesson": "Add Lesson",
+      "addTest": "Add Test",
+      "noContent": "No content yet",
+      "noContentDescription": "This course doesn't have any lessons or tests yet.",
+      "lessonTitle": "Lesson Title",
+      "lessonContent": "Lesson Content",
+      "lessonPlaceholder": "Write your lesson content here...",
+      "testTitle": "Test Title",
+      "createLesson": "Create Lesson",
+      "editLesson": "Edit Lesson",
+      "updateLesson": "Update Lesson",
+      "lessonCreated": "Lesson Created",
+      "lessonUpdated": "Lesson Updated",
+      "deleteLesson": "Delete Lesson",
+      "confirmDeleteLesson": "Are you sure you want to delete this lesson?",
+      "lessonDeleted": "Lesson Deleted",
+      "createNewLesson": "Create New Lesson",
+      "addNewLesson": "Add a new lesson to your course",
+      "updateYourLessonContent": "Update your lesson content and details",
+      "enterLessonTitle": "Enter lesson title",
+      "tip": "Tip: You can add images by clicking the image icon in the toolbar",
+      "cancel": "Cancel",
+      "editTest": "Edit Test",
+      "createTest": "Create Test",
+      "createTestSubtitle": "Create a test with multiple question types to assess student knowledge.",
+      "testTitlePlaceholder": "Enter test title",
+      "minimumPass": "Minimum passing grade",
+      "questions": "Questions",
+      "noQuestions": "No questions added yet",
+      "addQuestion": "Add Question",
+      "addFirstQuestion": "Add your first question",
+      "question": "Question",
+      "enterQuestion": "Enter your question",
+      "questionType": "Question Type",
+      "singleChoice": "Single Choice",
+      "multipleChoice": "Multiple Choice",
+      "trueFalse": "True/False",
+      "textMatch": "Text Match",
+      "options": "Options",
+      "option": "Option",
+      "addOption": "Add Option",
+      "markCorrect": "Mark as Correct",
+      "points": "Points",
+      "pointsForQuestion": "Points for this question",
+      "correctAnswer": "Correct Answer",
+      "true": "True",
+      "false": "False",
+      "correctAnswerText": "Correct Answer (text)",
+      "enterCorrectAnswer": "Enter the correct answer",
+      "questionTextRequired": "Question text is required",
+      "titleRequired": "Title is required",
+      "oneQuestionRequired": "At least one question is required",
+      "oneCorrectAnswerRequired": "At least one correct answer is required",
+      "twoCorrectAnswersRequired": "At least two correct answers are required",
+      "errorSubmitting": "Error submitting test",
+      "correct": "Correct",
+      "enterTestTitle": "Enter test title",
+      "updateTest": "Update Test"
+    },
+    "viewCourseDialog": {
+      "description": "Description",
+      "lessons": "Lessons",
+      "tests": "Tests",
+      "students": "Students",
+      "teacherInformation": "Teacher Information",
+      "name": "Name",
+      "email": "Email",
+      "courseActivity": "Course Activity",
+      "latestActivity": "Latest Activity",
+      "lesson": "Lesson",
+      "mostPopularLesson": "Most Popular Lesson",
+      "courseImage": "Course Image",
+      "created": "Created",
+      "updated": "Updated",
+      "avgScore": "Avg Score"
+    }
+  },
+  "students": {
+    "title": "Students",
+    "table": {
+      "name": "Name",
+      "enrolledCourses": "Enrolled Courses",
+      "lastActive": "Last Active",
+      "actions": "Actions"
+    },
+    "noStudents": "No Students Found",
+    "noStudentsDescription": "No students are currently enrolled in your courses.",
+    "viewProgress": "View Progress",
+    "removeStudent": "Remove Student",
+    "confirmRemove": "Are you sure you want to remove this student?",
+    "studentRemoved": "Student Removed",
+    "studentRemovedDesc": "Student has been successfully removed from the course.",
+    "progress": "Progress",
+    "completedLessons": "Completed Lessons",
+    "testsPassed": "Tests Passed",
+    "averageScore": "Average Test Score",
+    "lessonsCompleted": "Lessons Completed",
+    "testResults": "Test Results",
+    "testAttempts": "Test Attempts",
+    "noLessonsCompleted": "No lessons completed yet.",
+    "noTestsAttempted": "No tests attempted yet.",
+    "loadingStudentProgress": "Loading Student Progress",
+    "errorLoadingProgress": "Error loading student progress",
+    "lesson": "Lesson",
+    "test": "Test",
+    "score": "Score"
+  },
+  "feedback": {
+    "submitFeedback": "Submit Feedback",
+    "description": "Share your thoughts, report issues, or suggest improvements. Your feedback helps us enhance the platform.",
+    "feedbackType": "Feedback Type",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit",
+    "subjectPlaceholder": "Brief description of your feedback",
+    "messagePlaceholder": "Please provide details about your feedback",
+    "types": {
+      "bug": "Bug Report",
+      "feature_request": "Feature Request",
+      "general": "General Feedback",
+      "support": "Support Request"
+    },
+    "success": {
+      "title": "Feedback Submitted",
+      "description": "Thank you for your feedback!"
+    },
+    "error": {
+      "title": "Submission Failed",
+      "description": "There was an error submitting your feedback. Please try again."
+    },
+    "validation": {
+      "subjectMin": "Subject must be at least 3 characters",
+      "subjectMax": "Subject must be less than 100 characters",
+      "messageMin": "Message must be at least 10 characters",
+      "messageMax": "Message must be less than 1000 characters"
+    },
+    "admin": {
+      "title": "Feedback Submissions",
+      "noFeedback": "No feedback found.",
+      "table": {
+        "user": "User",
+        "email": "Email",
+        "subject": "Subject",
+        "type": "Type",
+        "status": "Status",
+        "date": "Date",
+        "message": "Message",
+        "actions": "Actions"
+      },
+      "loading": "Loading...",
+      "status": {
+        "pending": "Pending",
+        "in_progress": "In Progress",
+        "resolved": "Resolved",
+        "declined": "Declined"
+      },
+      "actions": {
+        "reply": "Reply",
+        "statusChanged": "Feedback status updated",
+        "statusChangedDesc": "Status changed to '{{status}}'",
+        "updateFailed": "Failed to update status",
+        "loadFailed": "Failed to load feedback"
+      },
+      "filters": {
+        "statusPlaceholder": "Filter by status",
+        "allStatuses": "All Statuses"
+      }
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "overview": {
+      "title": "Overview",
+      "totalStudents": "Total Students",
+      "totalCourses": "Total Courses",
+      "averageProgress": "Average Progress"
+    },
+    "coursePerformance": {
+      "title": "Course Performance",
+      "enrollments": "Enrollments",
+      "completionRates": "Completion Rates",
+      "studentProgress": "Student Progress"
+    },
+    "lessonPerformance": {
+      "title": "Lesson Performance",
+      "completionRate": "Completion Rate",
+      "averageScore": "Average Score"
+    },
+    "testResults": {
+      "title": "Test Results",
+      "passed": "Passed",
+      "failed": "Failed",
+      "averageScore": "Average Score"
+    },
+    "noData": "No data available"
+  },
+  "landing": {
+    "hero": {
+      "title": "Empower Your Learning Journey",
+      "description": "An innovative platform connecting students, teachers, and administrators with powerful tools to enhance the learning experience.",
+      "getStarted": "Get Started",
+      "goToDashboard": "Go to Dashboard"
+    },
+    "features": {
+      "title": "Platform Features",
+      "richContent": {
+        "title": "Rich Course Content",
+        "description": "Create and access courses with multimedia content, interactive lessons, and comprehensive tests."
+      },
+      "analytics": {
+        "title": "Detailed Analytics",
+        "description": "Track progress, analyze performance, and identify areas for improvement with detailed insights."
+      },
+      "roles": {
+        "title": "Role-Based Access",
+        "description": "Tailored experiences for students, teachers, and administrators with appropriate permissions."
+      },
+      "assessment": {
+        "title": "Assessment Tools",
+        "description": "Create various types of tests and quizzes with automatic grading and immediate feedback."
+      },
+      "progress": {
+        "title": "Progress Tracking",
+        "description": "Monitor individual and class progress with visual dashboards and detailed reports."
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Learning Experience?",
+      "description": "Join thousands of students and teachers already using our platform to achieve better educational outcomes."
+    },
+    "benefitsCard": {
+      "title": "Interactive Learning Experience",
+      "subtitle": "Access courses created by expert teachers with rich content and interactive tests.",
+      "benefits": [
+        "Comprehensive course materials",
+        "Adaptive learning paths",
+        "Real-time progress tracking"
+      ]
+    }
+  },
+  "header": {
+    "home": "Home",
+    "myProfile": "My Profile",
+    "quickActions": "Quick Actions",
+    "userSettings": "User Settings"
+  },
+  "footer": {
+    "description": "An educational platform for students and teachers",
+    "allRightsReserved": "All rights reserved",
+    "quickLinks": "Quick Links"
+  },
+  "signup": {
+    "fullNamePlaceholder": "Enter your full name",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "selectRole": "Select your role",
+    "createAccount": "Create Account",
+    "accountCreated": "Account created successfully",
+    "pleaseLogin": "Please login with your new account",
+    "signupFailed": "Failed to create account",
+    "emailExists": {
+      "title": "Email already registered",
+      "description": "This email address is already associated with an account. Please try logging in or use a different email."
+    }
+  },
+  "validation": {
+    "fullNameMin": "Full name must be at least 2 characters",
+    "fullNameMax": "Full name must be at most 50 characters",
+    "emailInvalid": "Invalid email address",
+    "emailRequired": "Email is required",
+    "passwordMin": "Password must be at least 6 characters",
+    "passwordMax": "Password must be at most 72 characters"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "adminDashboard": "Administrator Dashboard",
+    "teacherDashboard": "Teacher Dashboard",
+    "studentDashboard": "Student Dashboard",
+    "usersManagement": "Users Management",
+    "totalStudents": "Total Students",
+    "totalTeachers": "Total Teachers",
+    "coursesOverview": "Courses Overview",
+    "manageCourses": "Manage and monitor all courses on the platform",
+    "platformStats": "Platform Statistics",
+    "viewStats": "View detailed statistics about platform usage",
+    "myCourses": {
+      "title": "My Courses",
+      "created": "{{count}} course created",
+      "created_plural": "{{count}} courses created",
+      "enrolled": "{{count}} course enrolled",
+      "enrolled_plural": "{{count}} courses enrolled"
+    },
+    "students": {
+      "title": "Students",
+      "manage": "Manage students and review their progress"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "view": "View detailed analytics for your courses"
+    },
+    "progress": {
+      "title": "My Progress",
+      "track": "Track your learning progress across all courses"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "createCourse": "Create New Course",
+      "manageStudents": "Manage Students",
+      "browseCourses": "Browse Courses",
+      "viewProgress": "View Progress"
+    }
+  },
+  "admin": {
+    "usersManagement": {
+      "title": "Users Management",
+      "filters": {
+        "name": "Filter by name",
+        "role": "Filter by Role",
+        "status": "Filter by Status",
+        "allRoles": "All Roles",
+        "allUsers": "All Users",
+        "active": "Active",
+        "banned": "Banned"
+      },
+      "sort": {
+        "label": "Sort by:",
+        "created": "Creation Date",
+        "lastActive": "Last Active"
+      },
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "created": "Created",
+        "lastActive": "Last Active",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "noUsers": "No users found matching the current filters.",
+      "deleteConfirm": {
+        "title": "Are you sure?",
+        "description": "This action cannot be undone. This will permanently delete {{name}}'s account and remove their data from our servers.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      },
+      "status": {
+        "active": "Active",
+        "banned": "Banned"
+      },
+      "actions": {
+        "ban": "Ban",
+        "unban": "Unban",
+        "delete": "Delete"
+      },
+      "toast": {
+        "deleteSuccess": "User deleted successfully",
+        "deleteError": "Failed to delete user",
+        "banSuccess": "User banned successfully",
+        "unbanSuccess": "User unbanned successfully",
+        "banError": "Failed to ban user",
+        "unbanError": "Failed to unban user"
+      }
+    }
+  },
+  "statistics": {
+    "title": "Platform Statistics",
+    "tabs": {
+      "users": "Users",
+      "courses": "Courses",
+      "activity": "Activity"
+    },
+    "cards": {
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users (30 Days)",
+      "students": "Students",
+      "teachers": "Teachers",
+      "totalCourses": "Total Courses",
+      "totalLessons": "Total Lessons",
+      "totalTests": "Total Tests",
+      "totalEnrollments": "Total Enrollments"
+    },
+    "charts": {
+      "userSignups": {
+        "title": "User Signups",
+        "description": "New user registrations over the last 30 days",
+        "label": "Signups"
+      },
+      "usersByRole": {
+        "title": "Users by Role",
+        "description": "Distribution of users across different roles"
+      },
+      "activeUsersByRole": {
+        "title": "Active Users by Role (30 Days)",
+        "description": "Active users in the last 30 days by role"
+      },
+      "newCourses": {
+        "title": "New Courses",
+        "description": "Courses created over the last 30 days",
+        "label": "New Courses"
+      },
+      "popularCourses": {
+        "title": "Most Popular Courses",
+        "description": "Courses with most enrollments",
+        "label": "Enrollments"
+      },
+      "platformActivity": {
+        "title": "Platform Activity",
+        "description": "User activity over the last 30 days"
+      },
+      "testAttempts": {
+        "title": "Test Attempts",
+        "description": "Test attempts over the last 30 days"
+      }
+    }
+  },
+  "actions": {
+    "success": "Success",
+    "youHaveBeenEnrolled": "You have been enrolled in the course",
+    "loggedOut": "Logged out",
+    "loggedOutDescription": "You have been successfully logged out",
+    "loginSuccess": "Login successful",
+    "welcomeBack": "Welcome back, {{name}}!",
+    "loginFailed": "Login failed",
+    "invalidCredentials": "Invalid email or password",
+    "accountBanned": "Account Banned",
+    "accountBannedDescription": "Your account has been banned. Please contact support."
+  },
+  "student": {
+    "courses": {
+      "title": "My Courses",
+      "enrolledTab": "Enrolled Courses",
+      "browseTab": "Browse Courses",
+      "notEnrolledTitle": "You are not enrolled in any courses yet",
+      "notEnrolledDescription": "Browse available courses to start your learning journey",
+      "browseCoursesButton": "Browse Courses",
+      "noAvailableTitle": "No available courses",
+      "noAvailableDescription": "You are already enrolled in all available courses",
+      "enrollNow": "Enroll Now",
+      "enrolling": "Enrolling...",
+      "continueLearning": "Continue Learning",
+      "lessonCount_one": "{{count}} Lesson",
+      "lessonCount_other": "{{count}} Lessons",
+      "completionBadge": "{{percentage}}% Complete",
+      "enrollmentError": "Failed to enroll in the course. Please try again later."
+    },
+    "progress": {
+      "title": "Statistics",
+      "overallSummary": "Overall Summary",
+      "lessonsCompleted": "Lessons Completed",
+      "testsAttempted": "Tests Attempted",
+      "testsPassed": "Tests Passed",
+      "averageTestScore": "Average Test Score",
+      "progressByCourse": "Statistics By Course",
+      "notEnrolled": "You are not enrolled in any courses yet.",
+      "loading": {
+        "title": "Loading progress...",
+        "description": "Please wait while we fetch your progress information."
+      },
+      "error": {
+        "title": "Error loading your courses"
+      }
+    }
+  },
+  "courseDetail": {
+    "title": "Course Details",
+    "overview": {
+      "title": "Course Overview",
+      "description": "Description",
+      "lessons": "Lessons",
+      "tests": "Tests",
+      "lessonCount_one": "{{count}} Lesson",
+      "lessonCount_other": "{{count}} Lessons",
+      "testCount_one": "{{count}} Test",
+      "testCount_other": "{{count}} Tests"
+    },
+    "content": {
+      "title": "Course Content",
+      "noContent": "No content selected",
+      "noContentDescription": "Select a lesson or test from the sidebar to begin",
+      "type": {
+        "lesson": "Lesson",
+        "test": "Test"
+      },
+      "status": {
+        "completed": "Completed",
+        "incomplete": "Incomplete"
+      }
+    },
+    "progress": {
+      "title": "Your Progress",
+      "complete": "{{percentage}}% complete",
+      "items": "{{completed}}/{{total}}",
+      "continueLearning": "Continue Learning",
+      "reviewCourse": "Review Course"
+    },
+    "courseStats": {
+      "title": "Content Overview",
+      "lessons": "Lessons",
+      "tests": "Tests",
+      "completedItems": "Completed Items"
+    },
+    "loadingStates": {
+      "title": "Loading course...",
+      "description": "Please wait while we load the course content"
+    },
+    "errors": {
+      "notFound": {
+        "title": "Course Not Found",
+        "description": "The course you're looking for doesn't exist or you don't have access to it.",
+        "action": "Back to Courses"
+      },
+      "loading": "Error loading course"
+    },
+    "actions": {
+      "backToCourses": "Back to Courses",
+      "startLearning": "Start Learning"
+    }
+  },
+  "studentLesson": {
+    "lessonNotFound": "Lesson not found",
+    "lessonNotFoundDesc": "The lesson you're trying to view doesn't exist or has been removed",
+    "loadingError": "Failed to load lesson content",
+    "lessonCompleted": "Lesson completed",
+    "markComplete": "Mark as Complete",
+    "next": "Next"
+  },
+  "studentTest": {
+    "testNotFound": "Test not found",
+    "testNotFoundDesc": "The test you're trying to view doesn't exist or has been removed",
+    "loadingError": "Failed to load test",
+    "answeredQuestions": "answered",
+    "submitTest": "Submit Test",
+    "submitting": "Submitting...",
+    "testResults": {
+      "success": "Success",
+      "congratulations": "Congratulations! You passed the test with a score of {{score}}/{{maxScore}}.",
+      "failed": "Test Results",
+      "failedDesc": "You scored {{score}}/{{maxScore}}. You need to score at least {{minPercentage}}% to pass."
+    }
+  },
+  "enrollErrors": {
+    "userNotFound": "User not found",
+    "onlyStudentsCanEnroll": "Only students can enroll in courses",
+    "alreadyEnrolled": "Student is already enrolled in this course"
+  }
+}

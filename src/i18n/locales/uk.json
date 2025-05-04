@@ -1,0 +1,732 @@
+{
+  "lesson": "Урок",
+  "test": "Тест",
+  "completion": {
+    "prevAttempt": "Попередня спроба",
+    "scored": "Ваша остання спроба набрала",
+    "need": "Потрібно щонайменше",
+    "tryAgain": "щоб скласти тест. Спробуйте ще раз!",
+    "next": "далі",
+    "testPassedSuccess": "Тест успішно пройдено!",
+    "alreadyCompletedTest": "Ви вже проходили цей тест.",
+    "score": "Результат:",
+    "typeAnswer": "Введіть відповідь",
+    "true": "Правда",
+    "false": "Неправда",
+    "submitting": "Надсилається...",
+    "submitTest": "Надіслати тест",
+    "answerAllQuestions": "Дайте відповіді на всі запитання, щоб надіслати тест. Мінімальний прохідний бал:",
+    "question": "Запитання",
+    "points": "балів",
+    "lessonMarkedAsCompleted": "Урок позначено як завершений",
+    "success": "Успішно"
+  },
+  "common": {
+    "areYouSure": "Ви впевнені?",
+    "irreversibleAction": "Цю дію не можна скасувати. Вона призведе до видалення всіх даних, пов'язаних з цим курсом.",
+    "login": "Увійти",
+    "signup": "Зареєструватися",
+    "logout": "Вийти",
+    "dashboard": "Панель керування",
+    "courses": "Курси",
+    "students": "Студенти",
+    "analytics": "Аналітика",
+    "progress": "Прогрес",
+    "cancel": "Скасувати",
+    "save": "Зберегти",
+    "delete": "Видалити",
+    "edit": "Редагувати",
+    "create": "Створити",
+    "loading": "Завантаження...",
+    "error": "Помилка",
+    "view": "Перегляд",
+    "back": "Назад",
+    "submit": "Надіслати",
+    "tryAgain": "Спробувати знову",
+    "notAvailable": "Не доступно",
+    "users": "Користувачі",
+    "feedback": "Відгуки",
+    "statistic": "Статистика",
+    "platformAnalytics": "Статистика платформи"
+  },
+  "auth": {
+    "loginTitle": "Вхід",
+    "loginDescription": "Введіть свою електронну пошту та пароль для входу в обліковий запис",
+    "signupTitle": "Реєстрація",
+    "signupDescription": "Створіть обліковий запис, щоб розпочати",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "fullName": "Повне ім'я",
+    "role": "Роль",
+    "student": "Студент",
+    "teacher": "Викладач",
+    "dontHaveAccount": "Немає облікового запису?",
+    "alreadyHaveAccount": "Вже маєте обліковий запис?"
+  },
+  "courses": {
+    "singular": "курс",
+    "plural": "курси",
+    "test": "Тест",
+    "lesson": "Урок",
+    "create": "Створити курс",
+    "myCourses": "Мої курси",
+    "editCourse": "Редагувати курс",
+    "noCourses": "Курси не знайдено",
+    "courseTitle": "Назва курсу",
+    "courseDescription": "Опис курсу",
+    "lessons": "Уроки",
+    "addLesson": "Додати урок",
+    "noLessons": "Ще не створено жодного уроку",
+    "backToCourses": "Повернутися до курсів",
+    "courseList": {
+      "title": "Мої курси",
+      "subtitle": "Керуйте своїми курсами та уроками",
+      "noCoursesFound": "Курси не знайдено",
+      "noCoursesDescription": "Ви ще не створили жодного курсу. Почніть зі створення першого курсу!",
+      "createFirstCourse": "Створити перший курс",
+      "errorLoading": "Помилка завантаження курсів",
+      "createdOn": "Створено: {{date}}"
+    },
+
+    "students": {
+      "enrollments": "Записи на курс",
+      "addStudent": "Додати студента",
+      "add": "Додати",
+      "emailPlaceholder": "Введіть електронну адресу студента",
+      "noStudents": "Ще немає записаних студентів",
+      "studentAdded": "Студента додано",
+      "studentAddedDesc": "Студента успішно записано на курс.",
+      "errorAdding": "Помилка додавання студента",
+      "studentRemoved": "Студента видалено",
+      "studentRemovedDesc": "Студента успішно відписано від курсу.",
+      "confirmRemove": "Ви впевнені, що хочете видалити цього студента з курсу?",
+      "backToList": "Повернутися до списку студентів"
+    },
+    "validation": {
+      "titleRequired": "Назва курсу є обов'язковою",
+      "titleMinLength": "Назва повинна містити щонайменше 3 символи",
+      "descriptionRequired": "Опис курсу є обов'язковим",
+      "descriptionMinLength": "Опис повинен містити щонайменше 10 символів"
+    },
+    "createCourse": {
+      "title": "Створити новий курс",
+      "button": "Створити курс",
+      "pageTitle": "Створити новий курс",
+      "courseTitle": "Назва курсу",
+      "titlePlaceholder": "Введіть назву курсу",
+      "descriptionPlaceholder": "Опишіть свій курс",
+      "imageUrlLabel": "URL зображення курсу (необов'язково)",
+      "imageUrlPlaceholder": "Введіть URL зображення для курсу",
+      "createCourseButton": "Створити курс",
+      "courseCreated": "Курс створено",
+      "courseCreatedDesc": "Курс \"{{title}}\" було успішно створено",
+      "error": "Помилка створення курсу"
+    },
+    "content": {
+      "addContent": "Додати контент",
+      "addLesson": "Додати урок",
+      "addTest": "Додати тест",
+      "noContent": "Поки що немає контенту",
+      "noContentDescription": "У цьому курсі ще немає уроків або тести.",
+      "lessonTitle": "Назва уроку",
+      "lessonContent": "Контент уроку",
+      "lessonPlaceholder": "Напишіть контент уроку тут...",
+      "testTitle": "Назва тесту",
+      "createLesson": "Створити урок",
+      "editLesson": "Редагувати урок",
+      "updateLesson": "Оновити урок",
+      "lessonCreated": "Урок створено",
+      "lessonUpdated": "Урок оновлено",
+      "deleteLesson": "Видалити урок",
+      "confirmDeleteLesson": "Ви впевнені, що хочете видалити цей урок?",
+      "lessonDeleted": "Урок видалено",
+      "createNewLesson": "Створити новий урок",
+      "addNewLesson": "Додати новий урок до вашого курсу",
+      "updateYourLessonContent": "Оновіть зміст і деталі вашого уроку",
+      "enterLessonTitle": "Введіть назву уроку",
+      "tip": "Порада: Ви можете додавати зображення, натиснувши на іконку зображення на панелі інструментів",
+      "cancel": "Скасувати",
+      "editTest": "Редагувати тест",
+      "createTest": "Створити тест",
+      "createTestSubtitle": "Створіть тест із різними типами запитань для оцінки знань студентів.",
+      "testTitlePlaceholder": "Введіть назву тесту",
+      "minimumPass": "Мінімальна прохідна оцінка",
+      "questions": "Запитання",
+      "noQuestions": "Ще не додано жодного запитання",
+      "addQuestion": "Додати запитання",
+      "addFirstQuestion": "Додайте ваше перше запитання",
+      "question": "Запитання",
+      "enterQuestion": "Введіть запитання",
+      "questionType": "Тип запитання",
+      "singleChoice": "Один варіант",
+      "multipleChoice": "Кілька варіантів",
+      "trueFalse": "Правда/Неправда",
+      "textMatch": "Текст",
+      "options": "Варіанти",
+      "option": "Варіант",
+      "addOption": "Додати варіант",
+      "markCorrect": "Позначити як правильну",
+      "points": "Бали",
+      "pointsForQuestion": "Бали за це запитання",
+      "correctAnswer": "Правильна відповідь",
+      "true": "Правда",
+      "false": "Неправда",
+      "correctAnswerText": "Правильна відповідь (текст)",
+      "enterCorrectAnswer": "Введіть правильну відповідь",
+      "questionTextRequired": "Текст запитання є обов'язковим",
+      "titleRequired": "Назва є обов'язковою",
+      "oneQuestionRequired": "Потрібно щонайменше одне запитання",
+      "oneCorrectAnswerRequired": "Потрібна щонайменше одна правильна відповідь",
+      "twoCorrectAnswersRequired": "Потрібні щонайменше дві правильні відповіді",
+      "errorSubmitting": "Помилка при надсиланні тесту",
+      "correct": "Правильна відповідь",
+      "enterTestTitle": "Введіть назву тесту",
+      "updateTest": "Оновити тест"
+    },
+    "viewCourseDialog": {
+      "description": "Опис",
+      "lessons": "Уроки",
+      "tests": "Тести",
+      "students": "Студенти",
+      "teacherInformation": "Інформація про викладача",
+      "name": "Ім'я",
+      "email": "Електронна пошта",
+      "courseActivity": "Активність на курсі",
+      "latestActivity": "Остання активність",
+      "lesson": "Урок",
+      "mostPopularLesson": "Найпопулярніший урок",
+      "courseImage": "Зображення курсу",
+      "created": "Створено",
+      "updated": "Оновлено",
+      "avgScore": "Середній бал"
+    },
+    "courseManagement": {
+      "courseManagement": "Управління курсами",
+      "searchCourses": "Пошук курсів",
+      "newestFirst": "Найновіші першими",
+      "oldestFirst": "Найстаріші першими",
+      "title": "Назва",
+      "description": "Опис",
+      "status": "Статус",
+      "createdAt": "Створено",
+      "actions": "Дії",
+      "active": "Активний",
+      "deleteCourse": "Видалити курс",
+      "deleteDescription": "Ви впевнені, що хочете видалити курс? Цю дію не можна скасувати.",
+      "cancel": "Скасувати",
+      "delete": "Видалити",
+      "noCoursesFound": "Не знайдено курсів, які відповідають критеріям пошуку."
+    },
+    "courseDetail": {
+      "overview": "Огляд",
+      "edit": "Редагувати",
+      "content": "Зміст",
+      "students": "Студенти",
+      "editCourseTitle": "Редагувати курс",
+      "noContent": "Зміст відсутній",
+      "noContentDescription": "Цей курс ще не має уроків або тестів.",
+      "saveChanges": "Зберегти зміни",
+      "courseStats": {
+        "lessons": "{{count}} уроків",
+        "students": "{{count}} студентів",
+        "tests": "{{count}} тестів"
+      },
+      "courseDeleted": "Курс видалено",
+      "courseDeletedSuccress": "Ваш курс було успішно видалено.",
+      "courseUpdated": "Курс оновлено",
+      "courseUpdateSuccess": "Ваш курс було успішно оновлено.",
+      "deleteConfirm": {
+        "title": "Ви впевнені?",
+        "description": "Цю дію не можна скасувати. Це назавжди видалить курс \"{{title}}\" та всі пов'язані уроки, тести та записи про зарахування."
+      },
+      "courseManagement": {
+        "courseManagement": "Управління курсами",
+        "searchCourses": "Пошук курсів",
+        "newestFirst": "Спочатку нові",
+        "oldestFirst": "Спочатку старі",
+        "title": "Назва",
+        "description": "Опис",
+        "status": "Статус",
+        "createdAt": "Дата створення",
+        "actions": "Дії",
+        "active": "Активний",
+        "deleteCourse": "Видалити курс",
+        "deleteDescription": "Ви впевнені, що хочете видалити курс? Цю дію не можна скасувати.",
+        "cancel": "Скасувати",
+        "delete": "Видалити",
+        "noCoursesFound": "Не знайдено курсів за поточними фільтрами."
+      }
+    }
+  },
+  "students": {
+    "title": "Студенти",
+    "table": {
+      "name": "Ім'я",
+      "enrolledCourses": "Зараховані курси",
+      "lastActive": "Остання активність",
+      "actions": "Дії"
+    },
+    "noStudents": "Студентів не знайдено",
+    "noStudentsDescription": "У ваших курсах ще немає зарахованих студентів.",
+    "viewProgress": "Переглянути прогрес",
+    "removeStudent": "Видалити студента",
+    "confirmRemove": "Ви впевнені, що хочете видалити цього студента?",
+    "studentRemoved": "Студента видалено",
+    "studentRemovedDesc": "Студента успішно видалено з курсу.",
+    "progress": "Прогрес",
+    "completedLessons": "Пройдені уроки",
+    "testsPassed": "Пройдені тести",
+    "averageScore": "Середній бал тестів",
+    "lessonsCompleted": "Пройдено уроків",
+    "testResults": "Результати тестів",
+    "testAttempts": "Спроби тестів",
+    "noLessonsCompleted": "Ще не пройдено жодного уроку.",
+    "noTestsAttempted": "Ще не було спроб пройти тести.",
+    "loadingStudentProgress": "Завантаження прогресу студента",
+    "errorLoadingProgress": "Помилка завантаження прогресу студента",
+    "lesson": "Урок",
+    "test": "Тест",
+    "score": "Бал"
+  },
+  "feedback": {
+    "submitFeedback": "Надіслати відгук",
+    "description": "Поділіться своїми думками, повідомте про проблеми або запропонуйте покращення. Ваш відгук допомагає нам удосконалювати платформу.",
+    "feedbackType": "Тип відгуку",
+    "subject": "Тема",
+    "message": "Повідомлення",
+    "submit": "Надіслати",
+    "subjectPlaceholder": "Короткий опис вашого відгуку",
+    "messagePlaceholder": "Будь ласка, надайте детальну інформацію про ваш відгук",
+    "types": {
+      "bug": "Повідомлення про помилку",
+      "feature_request": "Запит на нову функцію",
+      "general": "Загальний відгук",
+      "support": "Запит до підтримки"
+    },
+    "success": {
+      "title": "Відгук надіслано",
+      "description": "Дякуємо за ваш відгук!"
+    },
+    "error": {
+      "title": "Помилка надсилання",
+      "description": "Сталася помилка під час надсилання відгуку. Будь ласка, спробуйте ще раз."
+    },
+    "validation": {
+      "subjectMin": "Тема повинна містити щонайменше 3 символи",
+      "subjectMax": "Тема повинна містити менше ніж 100 символів",
+      "messageMin": "Повідомлення повинно містити щонайменше 10 символів",
+      "messageMax": "Повідомлення повинно містити менше ніж 1000 символів"
+    },
+    "admin": {
+      "title": "Надіслані відгуки",
+      "noFeedback": "Відгуків не знайдено.",
+      "table": {
+        "user": "Користувач",
+        "email": "Пошта",
+        "subject": "Тема",
+        "type": "Тип",
+        "status": "Статус",
+        "date": "Дата",
+        "message": "Повідомлення",
+        "actions": "Дії"
+      },
+      "loading": "Завантаження...",
+      "status": {
+        "pending": "Очікує",
+        "in_progress": "В процесі",
+        "resolved": "Вирішено",
+        "declined": "Відхилено"
+      },
+      "actions": {
+        "reply": "Відповісти",
+        "statusChanged": "Статус відгуку оновлено",
+        "statusChangedDesc": "Статус змінено на '{{status}}'",
+        "updateFailed": "Не вдалося оновити статус",
+        "loadFailed": "Не вдалося завантажити відгуки"
+      },
+      "filters": {
+        "statusPlaceholder": "Фільтрувати за статусом",
+        "allStatuses": "Всі статуси"
+      }
+    }
+  },
+  "analytics": {
+    "title": "Аналітика",
+    "overview": {
+      "title": "Огляд",
+      "totalStudents": "Всього студентів",
+      "totalCourses": "Всього курсів",
+      "averageProgress": "Середній прогрес"
+    },
+    "coursePerformance": {
+      "title": "Ефективність курсів",
+      "enrollments": "Зарахування",
+      "completionRates": "Рівень завершення",
+      "studentProgress": "Прогрес студентів"
+    },
+    "lessonPerformance": {
+      "title": "Ефективність уроків",
+      "completionRate": "Рівень завершення",
+      "averageScore": "Середній бал"
+    },
+    "testResults": {
+      "title": "Результати тестів",
+      "passed": "Пройдено",
+      "failed": "Не пройдено",
+      "averageScore": "Середній бал"
+    },
+    "noData": "Дані відсутні"
+  },
+  "landing": {
+    "hero": {
+      "title": "Розширте свої можливості навчання",
+      "description": "Інноваційна платформа, що об'єднує студентів, викладачів та адміністраторів із потужними інструментами для покращення досвіду навчання.",
+      "getStarted": "Розпочати",
+      "goToDashboard": "До панелі керування"
+    },
+    "features": {
+      "title": "Можливості платформи",
+      "richContent": {
+        "title": "Багатий контент курсів",
+        "description": "Створюйте та отримуйте доступ до курсів з мультимедійним контентом, інтерактивними уроками та комплексними тестами."
+      },
+      "analytics": {
+        "title": "Детальна аналітика",
+        "description": "Відстежуйте прогрес, аналізуйте продуктивність та визначайте області для покращення за допомогою детальних даних."
+      },
+      "roles": {
+        "title": "Доступ на основі ролей",
+        "description": "Індивідуальний досвід для студентів, викладачів та адміністраторів з відповідними дозволами."
+      },
+      "assessment": {
+        "title": "Інструменти оцінювання",
+        "description": "Створюйте різні типи тестів та опитувань з автоматичним оцінюванням та миттєвим зворотним зв'язком."
+      },
+      "progress": {
+        "title": "Відстеження прогресу",
+        "description": "Моніторинг індивідуального та групового прогресу за допомогою візуальних панелей та детальних звітів."
+      }
+    },
+    "cta": {
+      "title": "Готові трансформувати свій досвід навчання?",
+      "description": "Приєднуйтесь до тисяч студентів та викладачів, які вже використовують нашу платформу для досягнення кращих результатів у навчанні."
+    },
+    "benefitsCard": {
+      "title": "Інтерактивний досвід навчання",
+      "subtitle": "Отримуйте доступ до курсів, створених експертами, з насиченим контентом та інтерактивними тестами.",
+      "benefits": [
+        "Комплексні навчальні матеріали",
+        "Адаптивні шляхи навчання",
+        "Відстеження прогресу в реальному часі"
+      ]
+    }
+  },
+  "header": {
+    "home": "Головна",
+    "myProfile": "Мій профіль",
+    "quickActions": "Швидкі дії",
+    "userSettings": "Налаштування користувача"
+  },
+  "footer": {
+    "description": "Освітня платформа для студентів та викладачів",
+    "allRightsReserved": "Всі права захищені",
+    "quickLinks": "Швидкі посилання"
+  },
+  "signup": {
+    "fullNamePlaceholder": "Введіть своє повне ім'я",
+    "emailPlaceholder": "Введіть свою електронну пошту",
+    "passwordPlaceholder": "Введіть свій пароль",
+    "selectRole": "Оберіть свою роль",
+    "createAccount": "Створити обліковий запис",
+    "accountCreated": "Обліковий запис успішно створено",
+    "pleaseLogin": "Будь ласка, увійдіть у свій новий обліковий запис",
+    "signupFailed": "Не вдалося створити обліковий запис",
+    "emailExists": {
+      "title": "Електронна адреса вже існує",
+      "description": "Ця електронна адреса вже використовується для іншого облікового запису. Спробуйте знову з іншою адресою."
+    }
+  },
+  "validation": {
+    "fullNameMin": "Повне ім'я має містити щонайменше 2 символи",
+    "fullNameMax": "Повне ім'я має містити не більше 50 символів",
+    "emailInvalid": "Недійсна електронна адреса",
+    "emailRequired": "Електронна пошта обов'язкова",
+    "passwordMin": "Пароль має містити щонайменше 6 символів",
+    "passwordMax": "Пароль має містити не більше 72 символів"
+  },
+  "dashboard": {
+    "welcome": "Ласкаво просимо, {{name}}",
+    "adminDashboard": "Панель адміністратора",
+    "teacherDashboard": "Панель викладача",
+    "studentDashboard": "Панель студента",
+    "usersManagement": "Управління користувачами",
+    "totalStudents": "Всього студентів",
+    "totalTeachers": "Всього викладачів",
+    "coursesOverview": "Огляд курсів",
+    "manageCourses": "Керуйте та відстежуйте всі курси на платформі",
+    "platformStats": "Статистика платформи",
+    "viewStats": "Перегляд детальної статистики використання платформи",
+    "myCourses": {
+      "title": "Мої курси",
+      "created": "{{count}} курс створено",
+      "created_plural": "{{count}} курсів створено",
+      "enrolled": "{{count}} курс зараховано",
+      "enrolled_plural": "{{count}} курсів зараховано"
+    },
+    "students": {
+      "title": "Студенти",
+      "manage": "Керуйте студентами та переглядайте їх прогрес"
+    },
+    "analytics": {
+      "title": "Аналітика",
+      "view": "Перегляд детальної аналітики ваших курсів"
+    },
+    "progress": {
+      "title": "Мій прогрес",
+      "track": "Відстежуйте свій прогрес навчання за всіма курсами"
+    },
+    "quickActions": {
+      "title": "Швидкі дії",
+      "createCourse": "Створити новий курс",
+      "manageStudents": "Керувати студентами",
+      "browseCourses": "Переглянути курси",
+      "viewProgress": "Переглянути прогрес"
+    }
+  },
+  "admin": {
+    "usersManagement": {
+      "title": "Керування користувачами",
+      "filters": {
+        "name": "Фільтр за ім'ям",
+        "role": "Фільтр за роллю",
+        "status": "Фільтр за статусом",
+        "allRoles": "Всі ролі",
+        "allUsers": "Всі користувачі",
+        "active": "Активні",
+        "banned": "Заблоковані"
+      },
+      "sort": {
+        "label": "Сортувати за:",
+        "created": "Датою створення",
+        "lastActive": "Останньою активністю"
+      },
+      "table": {
+        "name": "Ім'я",
+        "email": "Пошта",
+        "role": "Роль",
+        "created": "Створено",
+        "lastActive": "Остання активність",
+        "status": "Статус",
+        "actions": "Дії"
+      },
+      "noUsers": "Користувачів за вказаними фільтрами не знайдено.",
+      "deleteConfirm": {
+        "title": "Ви впевнені?",
+        "description": "Цю дію неможливо скасувати. Це назавжди видалить обліковий запис {{name}} та всі пов'язані дані з наших серверів.",
+        "cancel": "Скасувати",
+        "confirm": "Видалити"
+      },
+      "status": {
+        "active": "Активний",
+        "banned": "Заблокований"
+      },
+      "actions": {
+        "ban": "Заблокувати",
+        "unban": "Розблокувати",
+        "delete": "Видалити"
+      },
+      "toast": {
+        "deleteSuccess": "Користувача успішно видалено",
+        "deleteError": "Помилка видалення користувача",
+        "banSuccess": "Користувача успішно заблоковано",
+        "unbanSuccess": "Користувача успішно розблоковано",
+        "banError": "Помилка блокування користувача",
+        "unbanError": "Помилка розблокування користувача"
+      }
+    }
+  },
+  "statistics": {
+    "title": "Статистика платформи",
+    "tabs": {
+      "users": "Користувачі",
+      "courses": "Курси",
+      "activity": "Активність"
+    },
+    "cards": {
+      "totalUsers": "Всього користувачів",
+      "activeUsers": "Активні користувачі (30 днів)",
+      "students": "Студенти",
+      "teachers": "Викладачі",
+      "totalCourses": "Всього курсів",
+      "totalLessons": "Всього уроків",
+      "totalTests": "Всього тестів",
+      "totalEnrollments": "Всього зарахувань"
+    },
+    "charts": {
+      "userSignups": {
+        "title": "Реєстрації користувачів",
+        "description": "Нові реєстрації за останні 30 днів",
+        "label": "Реєстрації"
+      },
+      "usersByRole": {
+        "title": "Користувачі за ролями",
+        "description": "Розподіл користувачів за ролями"
+      },
+      "activeUsersByRole": {
+        "title": "Активні користувачі за ролями (30 днів)",
+        "description": "Активні користувачі за останні 30 дні за ролями"
+      },
+      "newCourses": {
+        "title": "Нові курси",
+        "description": "Курси створені за останні 30 днів",
+        "label": "Нові курси"
+      },
+      "popularCourses": {
+        "title": "Найпопулярніші курси",
+        "description": "Курси з найбільшою кількістю зарахувань",
+        "label": "Зарахування"
+      },
+      "platformActivity": {
+        "title": "Активність платформи",
+        "description": "Активність користувачів за останні 30 днів"
+      },
+      "testAttempts": {
+        "title": "Спроби тестів",
+        "description": "Спроби проходження тестів за останні 30 днів"
+      }
+    }
+  },
+  "actions": {
+    "success": "Успіх",
+    "youHaveBeenEnrolled": "Ви успішно зареєстровані на курс",
+    "loggedOut": "Вийшли",
+    "loggedOutDescription": "Ви успішно вийшли з облікового запису",
+    "loginSuccess": "Вхід успішний",
+    "welcomeBack": "З поверненням, {{name}}!",
+    "loginFailed": "Помилка входу",
+    "invalidCredentials": "Неправильна електронна пошта або пароль",
+    "accountBanned": "Обліковий запис заблоковано",
+    "accountBannedDescription": "Ваш обліковий запис заблоковано. Будь ласка, зв'яжіться з підтримкою."
+  },
+  "student": {
+    "courses": {
+      "title": "Мої курси",
+      "enrolledTab": "Зараховані курси",
+      "browseTab": "Переглянути курси",
+      "notEnrolledTitle": "Ви ще не зараховані на жодний курс",
+      "notEnrolledDescription": "Перегляньте доступні курси, щоб почати своє навчання",
+      "browseCoursesButton": "Переглянути курси",
+      "noAvailableTitle": "Немає доступних курсів",
+      "noAvailableDescription": "Ви вже зараховані на всі доступні курси",
+      "enrollNow": "Зарахуватися",
+      "enrolling": "Зарахування...",
+      "continueLearning": "Продовжити навчання",
+      "lessonCount_one": "{{count}} урок",
+      "lessonCount_few": "{{count}} уроки",
+      "lessonCount_many": "{{count}} уроків",
+      "completionBadge": "{{percentage}}% завершено",
+      "enrollmentError": "Не вдалося зарахуватися на курс. Будь ласка, спробуйте ще раз пізніше."
+    },
+    "progress": {
+      "title": "Статистика",
+      "overallSummary": "Загальний огляд",
+      "lessonsCompleted": "Пройдені уроки",
+      "testsAttempted": "Спроби тестів",
+      "testsPassed": "Пройдені тести",
+      "averageTestScore": "Середній бал тестів",
+      "progressByCourse": "Статистика за курсами",
+      "notEnrolled": "Ви ще не зараховані на жодний курс.",
+      "loading": {
+        "title": "Завантаження прогресу...",
+        "description": "Будь ласка, зачекайте, поки ми отримаємо інформацію про ваш прогрес."
+      },
+      "error": {
+        "title": "Помилка завантаження ваших курсів"
+      }
+    }
+  },
+  "courseDetail": {
+    "title": "Деталі курсу",
+    "overview": {
+      "title": "Огляд курсу",
+      "description": "Опис",
+      "lessons": "Уроки",
+      "tests": "Тести",
+      "lessonCount_one": "{{count}} урок",
+      "lessonCount_few": "{{count}} уроки",
+      "lessonCount_many": "{{count}} уроків",
+      "testCount_one": "{{count}} тест",
+      "testCount_few": "{{count}} тести",
+      "testCount_many": "{{count}} тестів"
+    },
+    "content": {
+      "title": "Вміст курсу",
+      "noContent": "Вміст не вибрано",
+      "noContentDescription": "Виберіть урок або тест з бічної панелі, щоб розпочати",
+      "type": {
+        "lesson": "Урок",
+        "test": "Тест"
+      },
+      "status": {
+        "completed": "Завершено",
+        "incomplete": "Не завершено"
+      }
+    },
+    "progress": {
+      "title": "Ваш прогрес",
+      "complete": "{{percentage}}% завершено",
+      "items": "{{completed}}/{{total}}",
+      "continueLearning": "Продовжити навчання",
+      "reviewCourse": "Переглянути курс"
+    },
+    "courseStats": {
+      "title": "Огляд вмісту",
+      "lessons": "Уроки",
+      "tests": "Тести",
+      "completedItems": "Завершені елементи"
+    },
+    "loadingStates": {
+      "title": "Завантаження курсу...",
+      "description": "Будь ласка, зачекайте, поки ми завантажимо вміст курсу"
+    },
+    "errors": {
+      "notFound": {
+        "title": "Курс не знайдено",
+        "description": "Курс, який ви шукаєте, не існує або у вас немає до нього доступу.",
+        "action": "Назад до курсів"
+      },
+      "loading": "Помилка завантаження курсу"
+    },
+    "actions": {
+      "backToCourses": "Назад до курсів",
+      "startLearning": "Почати навчання"
+    }
+  },
+  "studentLesson": {
+    "lessonNotFound": "Урок не знайдено",
+    "lessonNotFoundDesc": "Урок, який ви намагаєтесь переглянути, не існує або був видалений",
+    "loadingError": "Не вдалося завантажити вміст уроку",
+    "lessonCompleted": "Урок завершено",
+    "markComplete": "Позначити як завершений",
+    "next": "Далі"
+  },
+  "studentTest": {
+    "testNotFound": "Тест не знайдено",
+    "testNotFoundDesc": "Тест, який ви намагаєтесь пройти, не існує або був видалений",
+    "loadingError": "Не вдалося завантажити тест",
+    "answeredQuestions": "відповідей",
+    "submitTest": "Відправити тест",
+    "submitting": "Відправлення...",
+    "testResults": {
+      "success": "Успіх",
+      "congratulations": "Вітаємо! Ви пройшли тест з результатом {{score}}/{{maxScore}}.",
+      "failed": "Результати тесту",
+      "failedDesc": "Ваш результат {{score}}/{{maxScore}}. Вам потрібно набрати щонайменше {{minPercentage}}%, щоб пройти тест."
+    }
+  },
+  "enrollErrors": {
+    "userNotFound": "Користувача не знайдено",
+    "onlyStudentsCanEnroll": "Тільки студенти можуть зараховуватися на курси",
+    "alreadyEnrolled": "Студент вже зареєстрований на цей курс"
+  }
+}
